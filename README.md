@@ -30,12 +30,12 @@ RIOT_API_KEY=your-api-key-here
 Run the scraper:
 
 ```
-poetry run python src/scraping.py
+poetry run python src/scrape_matches.py
 ```
 
 Then run the processor:
 ```
-poetry run python src/process_matches.py
+poetry run python src/process_features.py
 ```
 
 
