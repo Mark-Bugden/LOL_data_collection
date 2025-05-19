@@ -1,14 +1,16 @@
-# LOL Match Scraper
+# LOL_data_collection
 
 A Python-based tool for scraping, processing, and saving ranked match data from the Riot Games API.
 
 ## Features
+
 - Resolve Riot ID to PUUID and Summoner ID
 - Fetch match history and match details
 - Handles rate limits and retries
 - Stores match data locally for analysis
 
 ## Requirements
+
 - Python 3.12+
 - [Poetry](https://python-poetry.org/)
 - Riot API key (stored in `.env`)
@@ -34,10 +36,10 @@ poetry run python src/scrape_matches.py
 ```
 
 Then run the processor:
+
 ```
 poetry run python src/process_features.py
 ```
-
 
 ## License
 
@@ -45,5 +47,5 @@ MIT
 
 ## Development notes:
 
-Data flowchart available at (LucidChart)[https://lucid.app/documents/]. 
-Riot developer portal (link)[https://developer.riotgames.com/docs/portal]. 
+Data flowchart available at (LucidChart)[https://lucid.app/documents/].
+Riot developer portal (link)[https://developer.riotgames.com/docs/portal].
